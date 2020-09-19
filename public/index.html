@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+    Name: Kelly Chhor
+    Date: November 11, 2019
+    Section: CSE 154 AL
+
+    This is the index.html page where the user can input information for a to-do list.
+    Users can also save and come back to it later.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="index.js"></script>
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <h1>To-Do List</h1>
+
+    <section id="menu">
+      <label for="files">Choose Existing File</label>
+      <select id="files">
+      </select>
+      <button id="open-btn">Open</button>
+      <button id="create-btn">Create New List</button>
+    </section>
+
+    <section id="create" class="hidden">
+      <form>
+        <label for="topic">List Title</label>
+        <input type="text" id="topic">
+        <button id="submit-btn">Submit</button>
+      </form>
+      <button id="add-btn">Add Item</button>
+    </section>
+
+    <section id="display" class="hidden">
+    </section>
+
+  </body>
+</html>

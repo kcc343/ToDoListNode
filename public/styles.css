@@ -1,0 +1,45 @@
+/*
+  NAME: Kelly Chhor
+  DATE: Novemeber 13, 2019
+  SECTION/TA: CSE 154 AL
+
+  This is the css file for the index.html page for making to-do lists. It gives
+  a simple design so the user can interact with simple items.
+ */
+
+body, button, input {
+  font-size: 14pt;
+  font-family: "Helvetica", "Verdana", sans-serif;
+}
+
+h1, #menu, #create {
+  text-align: center;
+}
+
+#menu, #create form {
+  display: flex;
+  flex-direction: column;
+}
+
+select, input {
+  width: 200px;
+}
+
+button {
+  padding: 4px;
+  box-shadow: 3px 2px black;
+  background-color: white;
+  width: 150px;
+}
+
+#menu, select, button, input {
+  margin: auto auto;
+}
+
+#menu {
+  margin-bottom: 50px;
+}
+
+.hidden {
+  display: none;
+}
